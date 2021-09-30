@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background-color: #ea3223;
+  color: #fef752;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: underline;
+}
